@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../js/checker.js"></script>
+    <link rel="stylesheet" href="../lib/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+    <title>ログイン画面</title>
+</head>
+<body style="position: relative;">
+
+<div style="top: 50%;left: 50%;position: absolute">
+    <form action="" method="post" onsubmit="checkForm()">
+        <label for="user">ユーザー名を入力してください</label><br/>
+        <input type="text" maxlength="20" name="user_name" id="user"><br/>
+        <label for="pass">パスワードを入力してください</label><br/>
+        <input type="password" maxlength="20" name="user_password" id="pass"><br/>
+
+        <div style="text-align: right">
+            <input type="submit" class="btn btn-default">
+        </div>
+    </form>
+</div>
+</body>
+</html>
